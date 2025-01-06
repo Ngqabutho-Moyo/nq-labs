@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router';
   <div class="font-serif py-10 px-10">
     <div class="grid grid-cols-2 gap-2">
       <div>
-        <img v-bind:src="'/src/assets/img/nqlabs2.png'">
+        <img src="/src/assets/img/nqlabs2.png">
       </div>
       <div>
         <div class="mb-10">
