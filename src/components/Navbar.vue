@@ -3,26 +3,26 @@
 import { RouterLink } from 'vue-router';
 import Dropdown from './Dropdown.vue';
 
-export default{
-  name:'navbar',
-  components:{
+export default {
+  name: 'navbar',
+  components: {
     Dropdown,
     RouterLink
   },
-  data:()=>{
-    return{
-      services:[
+  data: () => {
+    return {
+      services: [
         {
-          title:'Data Science',
-          link:'data-science',
+          title: 'Data Science',
+          link: 'data-science',
         },
         {
-          title:'Mobile App Development',
-          link:'mobile-apps',
+          title: 'Mobile App Development',
+          link: 'mobile-apps',
         },
         {
-          title:'Web Development',
-          link:'web-apps',
+          title: 'Web Development',
+          link: 'web-apps',
         },
       ]
     }
@@ -31,25 +31,20 @@ export default{
 </script>
 
 <template>
-  <nav class="bg-cyan-400">
+  <nav class="font-serif bg-cyan-400">
     <div class="mx-auto max-w-7xl">
       <div class="flex h-15 items-center justify-between">
         <div>
-          <!-- Logo -->
-          <!-- <a class="flex flex-shrink-0 items-center mr-4" href="#"> -->
-          <!-- <img class="h-10 w-auto content-start" v-bind:src="'/src/assets/img/nqlabs3.png'" alt="NQ Labs" /> -->
-          <!-- </a> -->
           <div class="md:ml-auto">
             <div class="flex space-x-2">
               <div class="menu-item">
-                <a href="/"
-                class="font-serif text-black">Home</a>
+                <a href="/" class=" text-black">Home</a>
               </div>
-                <div class="font-serif">
-                  <Dropdown title="Services" :items="services"></Dropdown>
-                </div>
               <div class="menu-item">
-                <a href="#" class="font-serif text-black">Contact
+                <a href="portfolio" class=" text-black">Portfolio</a>
+              </div>
+              <div class="menu-item">
+                <a href="contact-us" class=" text-black">Contact
                   Us</a>
               </div>
             </div>
@@ -79,6 +74,12 @@ nav .menu-item {
 }
 
 nav .menu-item.active,
+nav .menu-item:hover {
+  background-color: white;
+  border-bottom-color: #019cf0;
+}
+
+/* nav .menu-item.active, */
 /* nav .menu-item:hover {
   background-color: white;
   border-bottom-color: #06bbf1;

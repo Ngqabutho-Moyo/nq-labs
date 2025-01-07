@@ -63,35 +63,6 @@ import Card from '@/components/Card.vue';
             </div>
           </div>
         </main>
-
-        <!-- Sidebar -->
-        <aside>
-          <!-- Company Info -->
-          <div class="bg-white p-6 rounded-lg shadow-md">
-
-            <h3 class="text-xl">Email:</h3>
-
-            <p class="my-2 bg-cyan-100 p-2 mb-10">
-              nqlabsai@gmail.com
-            </p>
-
-            <h3 class="text-xl">Call/WhatsApp:</h3>
-
-            <p class="my-2 bg-cyan-100 p-2">+263 78 129 4119</p>
-          </div>
-
-          <!-- Manage -->
-          <!-- <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h3 class="text-xl font-bold mb-6">Manage Job</h3>
-            <a href="add-job.html"
-              class="bg-cyan-500 hover:bg-cyan-600 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block">Edit
-              Job</a>
-            <button
-              class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block">
-              Delete Job
-            </button>
-          </div> -->
-        </aside>
       </div>
     </div>
   </section>

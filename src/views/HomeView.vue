@@ -75,5 +75,22 @@ import { RouterLink } from 'vue-router';
         </div>
       </Card>
     </div>
+    <div class="py-10">
+      <h1 class="text-3xl "><strong>Portfolio</strong></h1>
+      <p class="py-10"><img src="/src/assets/img/laboserv4.png"></p>
+    </div>
+    <div class="py-10">
+      <h1 class="text-3xl "><strong>Contact Us</strong></h1>
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <Card>
+        <h1 class="text-1xl "><strong>Email</strong></h1>
+        <p>nqlabsai@gmail.com</p>
+      </Card>
+      <Card>
+        <h1 class="text-1xl "><strong>Call/WhatsApp</strong></h1>
+        <p>+263 78 129 4119</p>
+      </Card>
+    </div>  
   </div>
 </template>

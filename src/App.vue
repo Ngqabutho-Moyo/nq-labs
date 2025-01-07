@@ -6,7 +6,7 @@ import DataScienceView from '@/views/DataScienceView.vue';
 </script>
 
 <template>
-  <Navbar></Navbar>
+  <!-- <Navbar></Navbar> -->
   <RouterView></RouterView>
   <!-- <HomeView></HomeView> -->
    <!-- <DataScienceView></DataScienceView> -->
