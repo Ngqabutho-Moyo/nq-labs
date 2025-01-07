@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router';
       </div>
       <div>
         <div class="mb-10">
-          <h1 class="text-3xl "><strong>About</strong></h1>
+          <h1 class="text-3xl text-cyan-600"><strong>About</strong></h1>
           <p>Welcome to NQ Labs, a pioneering software development company that
             specializes in
             artificial intelligence applications whilst dabbling in web and mobile applications. Committed to advancing
@@ -20,13 +20,13 @@ import { RouterLink } from 'vue-router';
             driving innovation and excellence in these fields.</p>
         </div>
         <div class="mb-10">
-          <h2 class="text-3xl "><strong>Mission Statement</strong></h2>
+          <h2 class="text-3xl text-cyan-600"><strong>Mission Statement</strong></h2>
           <p>Empowering businesses to thrive in a rapidly changing world by crafting
             innovative,
             AI-driven solutions that transform the way they operate, interact, and grow</p>
         </div>
         <div class="mb-10">
-          <h1 class="text-3xl "><strong>Core Values</strong></h1>
+          <h1 class="text-3xl text-cyan-600"><strong>Core Values</strong></h1>
           <p><strong>1. Innovation:</strong> We foster a culture ofcreativity,
             experimentation, and
             continuous learning to stay ahead ofthe curve.</p>
@@ -41,7 +41,7 @@ import { RouterLink } from 'vue-router';
       </div>
     </div>
     <div class="py-10">
-      <h1 class="text-3xl "><strong>Our Services</strong></h1>
+      <h1 class="text-3xl text-cyan-600"><strong>Our Services</strong></h1>
     </div>
     <div class="grid grid-cols-3 gap-3">
       <Card>
@@ -76,11 +76,11 @@ import { RouterLink } from 'vue-router';
       </Card>
     </div>
     <div class="py-10">
-      <h1 class="text-3xl "><strong>Portfolio</strong></h1>
+      <h1 class="text-3xl text-cyan-600"><strong>Portfolio</strong></h1>
       <p class="py-10"><img src="/src/assets/img/laboserv4.png"></p>
     </div>
     <div class="py-10">
-      <h1 class="text-3xl "><strong>Contact Us</strong></h1>
+      <h1 class="text-3xl text-cyan-600"><strong>Contact Us</strong></h1>
     </div>
     <div class="grid grid-cols-2 gap-2">
       <Card>
