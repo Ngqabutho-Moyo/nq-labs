@@ -23,7 +23,7 @@ import { RouterLink } from 'vue-router';
           <h2 class="text-3xl text-cyan-600"><strong>Mission Statement</strong></h2>
           <p>Empowering businesses to thrive in a rapidly changing world by crafting
             innovative,
-            AI-driven solutions that transform the way they operate, interact, and grow</p>
+            AI-driven solutions that transform the way they operate, interact, and grow.</p>
         </div>
         <div class="mb-10">
           <h1 class="text-3xl text-cyan-600"><strong>Core Values</strong></h1>
@@ -76,20 +76,24 @@ import { RouterLink } from 'vue-router';
       </Card>
     </div>
     <div class="py-10">
-      <h1 class="text-3xl text-cyan-600"><strong>Portfolio</strong></h1>
-      <p class="py-10"><img src="/src/assets/img/laboserv4.png"></p>
+      <h1 class="text-3xl text-cyan-600"><strong>Our Portfolio</strong></h1>
+      <div class="grid grid-cols-3 gap-3">
+        <p class="py-10"><img src="/src/assets/img/clients/laboserv4.png"></p>
+        <p class="py-10"><img src="/src/assets/img/clients/pp2.jpg" style="width: 225px; height: 120px;"></p>
+      </div>
     </div>
-    <div class="py-10">
+    <div class="py-5">
       <h1 class="text-3xl text-cyan-600"><strong>Contact Us</strong></h1>
     </div>
-    <div class="grid grid-cols-2 gap-2">
-      <Card>
-        <h1 class="text-1xl "><strong>Email</strong></h1>
-        <p>nqlabsai@gmail.com</p>
+    <div class="grid grid-cols-3 gap-3">
+      <Card bg="bg-white">
+        <i class="pi pi-envelope"></i>&emsp;nqlabsai@gmail.com
       </Card>
-      <Card>
-        <h1 class="text-1xl "><strong>Call/WhatsApp</strong></h1>
-        <p>+263 78 129 4119</p>
+      <Card bg="bg-white">
+        <i class="pi pi-phone"></i>&emsp;+263 78 129 4119
+      </Card>
+      <Card bg="bg-white">
+        <i class="pi pi-linkedin"></i>&emsp;<a href="https://www.linkedin.com/in/ngqabutho-moyo-217a4a1b8/">https://www.linkedin.com/in/ngqabutho-moyo-217a4a1b8/</a>
       </Card>
     </div>  
   </div>

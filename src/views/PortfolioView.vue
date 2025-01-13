@@ -12,7 +12,7 @@ import Card from '@/components/Card.vue';
             <h1 class="text-3xl font-bold mb-4 ">Portfolio</h1>            
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <img src="/src/assets/img/laboserv4.png">
+            <img src="/src/assets/img/clients/laboserv4.png">
           </div>
         </div>
       </div>

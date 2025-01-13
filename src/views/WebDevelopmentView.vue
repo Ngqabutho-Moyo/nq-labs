@@ -17,23 +17,23 @@ import Card from '@/components/Card.vue';
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h3 class="">
+            <h1 class="">
               <strong>Overview</strong>
-            </h3>
+            </h1>
             <p class="mb-4 ">
               In order for businesses to attract new customers whilst retaining existing ones, they should maintain a strong and persistent online presence. We offer web application solutions for businesses who wish to stay ahead of the curve.
             </p>
-            <!-- <h3 class="text-cyan-800 text-lg font-bold mb-2">Salary</h3>
+            <!-- <h1 class="text-cyan-800 text-lg font-bold mb-2">Salary</h1>
             <p class="mb-4">$70k - $80K / Year</p> -->
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h3 class="">
+            <h1 class="">
               <strong>Pricing</strong>
-            </h3>
+            </h1>
             <div class="grid grid-cols-3 gap-10">       
                 <Card>
                   <ul class=""><strong>Basic</strong>
-                  <li>&#8226; 5 to 10 pages</li>
+                  <li>&#8226; 5 to 10 screens</li>
                   <li>&#8226; Rudimentary functionality (contact form, social media integration)</li>
                   <li>&#8226; Rudimentary content management system (CMS)</li>
                   </ul>

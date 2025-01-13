@@ -5,7 +5,7 @@ import 'primeicons/primeicons.css'
 </script>
 
 <template>
-  <section class="font-serif bg-cyan-50">
+  <section id="mobile-app-development" class="font-serif bg-cyan-50">
     <div class="container m-auto py-10 px-6">
       <div class="grid grid-cols-1 md:grid-cols-70/30 w-full gap-6">
         <main>
@@ -18,19 +18,19 @@ import 'primeicons/primeicons.css'
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h3 class="">
+            <h1 class="">
               <strong>Overview</strong>
-            </h3>
+            </h1>
             <p class="mb-4 ">
               As more and more people buy mobile phones and use them to transact, companies are taking the initiative to offer convenience to their customer base on a mobile platform. We build mobile applications for big and small businesses on both Android and iOS platforms.
             </p>
-            <!-- <h3 class="text-cyan-800 text-lg font-bold mb-2">Salary</h3>
+            <!-- <h1 class="text-cyan-800 text-lg font-bold mb-2">Salary</h1>
             <p class="mb-4">$70k - $80K / Year</p> -->
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h3 class="">
+            <h1 class="">
               <strong>Pricing</strong>
-            </h3>
+            </h1>
             <div class="grid grid-cols-3 gap-10">       
                 <Card>
                   <ul class=""><strong>Basic</strong>
@@ -66,3 +66,12 @@ import 'primeicons/primeicons.css'
     </div>
   </section>
 </template>
+
+<!-- <style>
+#mobile-app-development {
+  background-image: url('/src/assets/img/services/mad/mad1.jpg');
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+</style> -->

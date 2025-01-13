@@ -4,7 +4,7 @@ import Card from '@/components/Card.vue';
 </script>
 
 <template>
-  <section class="font-serif bg-cyan-50">
+  <section id="data-science" class="font-serif bg-cyan-50">
     <div class="container m-auto py-10 px-6">
       <div class="grid grid-cols-2 md:grid-cols-70/30 w-full gap-6">
         <div>
@@ -13,9 +13,9 @@ import Card from '@/components/Card.vue';
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h3>
+            <h1>
               <strong>Overview</strong>
-            </h3>
+            </h1>
             <p class="mb-4 ">
               Data has become a currency in the modern business world. As such, it has become imperative for businesses
               to leverage its power in order to maximize the value of their products and services. We process and clean
@@ -44,9 +44,9 @@ import Card from '@/components/Card.vue';
 
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h3>
+            <h1>
               <strong>Pricing</strong>
-            </h3>
+            </h1>
             <div class="grid grid-cols-3 gap-10">
               <Card>
                 <ul><strong>Basic</strong>
@@ -82,11 +82,11 @@ import Card from '@/components/Card.vue';
         <!-- Sidebar -->
         <!-- <aside>
           <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl">Email:</h3>
+            <h1 class="text-xl">Email:</h1>
             <p class="my-2 bg-cyan-100 p-2 mb-10">
               nqlabsai@gmail.com
             </p>
-            <h3 class="text-xl">Call/WhatsApp:</h3>
+            <h1 class="text-xl">Call/WhatsApp:</h1>
             <p class="my-2 bg-cyan-100 p-2">+263 78 129 4119</p>
           </div>
         </aside> -->
@@ -94,3 +94,12 @@ import Card from '@/components/Card.vue';
     </div>
   </section>
 </template>
+
+<!-- <style>
+#data-science {
+  background-image: url('/src/assets/img/services/ds/ds2.jpg');
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+</style> -->
