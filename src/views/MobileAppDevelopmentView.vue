@@ -18,7 +18,7 @@ import 'primeicons/primeicons.css'
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h1 class="">
+            <h1 class="text-3xl font-bold mb-4 ">
               <strong>Overview</strong>
             </h1>
             <p class="mb-4 ">
@@ -28,36 +28,36 @@ import 'primeicons/primeicons.css'
             <p class="mb-4">$70k - $80K / Year</p> -->
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h1 class="">
-              <strong>Pricing</strong>
+            <h1 class="text-3xl font-bold mb-4 ">
+              <strong>Packages</strong>
             </h1>
             <div class="grid grid-cols-3 gap-10">       
                 <Card>
-                  <ul class=""><strong>Basic</strong>
+                  <ul><strong>Basic</strong>
                   <li>&#8226; 5 to 10 screens</li>
                   <li>&#8226; Rudimentary input (text fields, radio buttons, checkboxes) and output (text, images, graphs)</li>
                   <li>&#8226; Android only</li>
                   </ul>
-                  <p class="mt-5 " icon="pi pi-check">$700</p>
+                  <!-- <p class="mt-5 " icon="pi pi-check">$700</p> -->
                 </Card>
                 <Card>
-                  <ul class=""><strong>Standard</strong>
+                  <ul><strong>Standard</strong>
                   <li>&#8226; 11 to 20 screens</li>
                   <li>&#8226; Rudimentary input (text fields, radio buttons, checkboxes) and output (text, images, graphs)</li>
                   <li>&#8226; Rudimentary features (user authentication, API integration)</li>
                   <li>&#8226; Android and iOS</li>
                   </ul>
-                  <p class="mt-5 ">$950</p>
+                  <!-- <p class="mt-5 ">$950</p> -->
                 </Card>
                 <Card>
-                  <ul class=""><strong>Enterprise</strong>
+                  <ul><strong>Enterprise</strong>
                   <li>&#8226; 20+ screens</li>
                   <li>&#8226; Rudimentary input (text fields, radio buttons, checkboxes) and output (text, images, graphs)</li>
                   <li>&#8226; Advanced features (machine learning, IoT)</li>
                   <li>&#8226; Analytics integration</li>
                   <li>&#8226; Android and iOS</li>
                   </ul>
-                  <p class="mt-5 ">$1 450</p>
+                  <!-- <p class="mt-5 ">$1 450</p> -->
                 </Card>               
             </div>
           </div>

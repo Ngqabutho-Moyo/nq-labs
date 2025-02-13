@@ -9,11 +9,11 @@ import Card from '@/components/Card.vue';
       <div class="grid grid-cols-2 md:grid-cols-70/30 w-full gap-6">
         <div>
           <div class="bg-white p-6 rounded-lg shadow-md text-center md:text-left">
-            <h1 class="text-3xl font-bold mb-4 ">Data Science</h1>
+            <h1 class="text-3xl font-bold mb-4 ">Data Analytics</h1>
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h1>
+            <h1 class="text-3xl font-bold mb-4 ">
               <strong>Overview</strong>
             </h1>
             <p class="mb-4 ">
@@ -44,8 +44,8 @@ import Card from '@/components/Card.vue';
 
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h1>
-              <strong>Pricing</strong>
+            <h1 class="text-3xl font-bold mb-4 ">
+              <strong>Packages</strong>
             </h1>
             <div class="grid grid-cols-3 gap-10">
               <Card>
@@ -54,7 +54,7 @@ import Card from '@/components/Card.vue';
                   <li>&#8226; Rudimentary data cleaning and preprocessing</li>
                   <li>&#8226; Rudimentary machine learning models (e.g. linear regression, decision trees)</li>
                 </ul>
-                <p class="mt-5 ">$800</p>
+                <!-- <p class="mt-5 ">$800</p> -->
               </Card>
               <Card>
                 <ul><strong>Standard</strong>
@@ -64,7 +64,7 @@ import Card from '@/components/Card.vue';
                   <li>&#8226; Data insights and recommendations with actionable steps</li>
                   <li>Rudimentary data reporting using Microsoft Power BI</li>
                 </ul>
-                <p class="mt-5 ">$1 550</p>
+                <!-- <p class="mt-5 ">$1 550</p> -->
               </Card>
               <Card>
                 <ul><strong>Enterprise</strong>
@@ -74,7 +74,7 @@ import Card from '@/components/Card.vue';
                   <li>&#8226; Comprehensive data insights and recommendations with strategic planning</li>
                   <li>Advanced data reporting using Microsoft Power BI</li>
                 </ul>
-                <p class="mt-5 ">$2 250</p>
+                <!-- <p class="mt-5 ">$2 250</p> -->
               </Card>
             </div>
           </div>

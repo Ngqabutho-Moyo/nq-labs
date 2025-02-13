@@ -17,7 +17,7 @@ import Card from '@/components/Card.vue';
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h1 class="">
+            <h1 class="text-3xl font-bold mb-4 ">
               <strong>Overview</strong>
             </h1>
             <p class="mb-4 ">
@@ -27,30 +27,30 @@ import Card from '@/components/Card.vue';
             <p class="mb-4">$70k - $80K / Year</p> -->
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md mt-6">
-            <h1 class="">
-              <strong>Pricing</strong>
+            <h1 class="text-3xl font-bold mb-4 ">
+              <strong>Packages</strong>
             </h1>
             <div class="grid grid-cols-3 gap-10">       
                 <Card>
-                  <ul class=""><strong>Basic</strong>
+                  <ul><strong>Basic</strong>
                   <li>&#8226; 5 to 10 screens</li>
                   <li>&#8226; Rudimentary functionality (contact form, social media integration)</li>
                   <li>&#8226; Rudimentary content management system (CMS)</li>
                   </ul>
-                  <p class="mt-5 ">$500</p>
+                  <!-- <p class="mt-5 ">$500</p> -->
                 </Card>
                 <Card>
-                  <ul class=""><strong>Standard</strong>
+                  <ul><strong>Standard</strong>
                   <li>&#8226; 11 to 20 screens</li>
                   <li>&#8226; Rudimentary functionality (contact form, social media integration)</li>
                   <li>&#8226; User authentication</li>
                   <li>&#8226; Custom CMS</li>
                   <li>&#8226; Rudimentary backend development</li>
                   </ul>
-                  <p class="mt-5 ">$750</p>
+                  <!-- <p class="mt-5 ">$750</p> -->
                 </Card>
                 <Card>
-                  <ul class=""><strong>Enterprise</strong>
+                  <ul><strong>Enterprise</strong>
                   <li>&#8226; 20+ screens</li>
                   <li>&#8226; Advanced functionality (custom APIs, machine learning integration)</li>
                   <li>&#8226; User authentication</li>
@@ -58,7 +58,7 @@ import Card from '@/components/Card.vue';
                   <li>&#8226; Advanced backend development</li>
                   <li>&#8226; Advanced search engine optimization</li>
                   </ul>
-                  <p class="mt-5 ">$1350</p>
+                  <!-- <p class="mt-5 ">$1350</p> -->
                 </Card>               
             </div>
           </div>

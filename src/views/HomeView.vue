@@ -45,7 +45,7 @@ import { RouterLink } from 'vue-router';
     </div>
     <div class="grid grid-cols-3 gap-3">
       <Card>
-        <h1 class="text-1xl "><strong>Data Science</strong></h1>
+        <h1 class="text-1xl "><strong>Data Analytics</strong></h1>
         <p>We process and clean data, and apply machine learning algorithms in order to gain insights
           and help businesses in their decision-making.</p>
         <div class="mt-3 mb-8">
@@ -79,7 +79,7 @@ import { RouterLink } from 'vue-router';
       <h1 class="text-3xl text-cyan-600"><strong>Our Portfolio</strong></h1>
       <div class="grid grid-cols-3 gap-3">
         <p class="py-10"><img src="/src/assets/img/clients/laboserv4.png"></p>
-        <p class="py-10"><img src="/src/assets/img/clients/pp2.jpg" style="width: 225px; height: 120px;"></p>
+        <p class="py-10"><img src="/src/assets/img/clients/pp3.png" style="width: 225px; height: 120px;"></p>
       </div>
     </div>
     <div class="py-5">
