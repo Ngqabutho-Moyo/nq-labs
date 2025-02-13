@@ -9,7 +9,7 @@ import Card from '@/components/Card.vue';
       <div class="grid grid-cols-1 md:grid-cols-70/30 w-full gap-6">
         <main>
           <div class="bg-white p-6 rounded-lg shadow-md text-center md:text-left">
-            <h1 class="text-3xl font-bold mb-4 ">Web Development</h1>
+            <h1 class="text-3xl font-bold mb-4 ">Web Systems Development</h1>
             <!-- <div class="text-gray-500 mb-4 flex align-middle justify-center md:justify-start">
               <i class="fa-solid fa-location-dot text-lg text-orange-700 mr-2"></i>
               <p class="text-orange-700">Boston, MA</p>
@@ -21,7 +21,7 @@ import Card from '@/components/Card.vue';
               <strong>Overview</strong>
             </h1>
             <p class="mb-4 ">
-              In order for businesses to attract new customers whilst retaining existing ones, they should maintain a strong and persistent online presence. We offer web application solutions for businesses who wish to stay ahead of the curve.
+              We build platform-agnostic, high-performance web systems accompanied by interactive-style performance dashboards
             </p>
             <!-- <h1 class="text-cyan-800 text-lg font-bold mb-2">Salary</h1>
             <p class="mb-4">$70k - $80K / Year</p> -->

@@ -64,8 +64,8 @@ import { RouterLink } from 'vue-router';
         </div>
       </Card>
       <Card>
-        <h1 class="text-1xl "><strong>Web Development</strong></h1>
-        <p>We design and deploy websites and web apps with custom functionality aimed at
+        <h1 class="text-1xl "><strong>Web Systems Development</strong></h1>
+        <p>We design and deploy web systems and apps with custom functionality aimed at
           satisfying
           business needs.</p>
         <div class="mt-3 mb-8">
